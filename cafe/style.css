@@ -1,0 +1,71 @@
+/* PC、スマホ共通スタイル */
+* {
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  body {
+    max-width: 1080px;
+    margin: 0 auto 0 auto;
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  }
+
+   /* ヘッダー */
+ header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+   /* ナビゲーションのレイアウト */
+ #nav-pc {
+    font-size: 16px;
+  }
+  
+  #nav-pc ul {
+    display: flex;
+    padding-left: 0;
+  }
+  
+  #nav-pc li {
+    list-style: none;
+  }
+  
+  /* ナビゲーションのリンクの装飾設定 */
+  #nav-pc a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #0d0d0d;
+  }
+  
+  #nav-pc a:hover {
+    text-decoration: underline;
+  }
+
+  /* メインビジュアル*/
+  #main-visual img {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 100%; /* レスポンシブ対応にもおすすめ */
+    height: auto;
+  }
+  
+ .about {
+  padding: 20px;
+  text-align: center;
+  }
+
+  .about img {
+  width: 90%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ }
+
+ .menu {
+  margin: 20px 0;
+}
+
